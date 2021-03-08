@@ -1,4 +1,5 @@
 create table task(
-    id INTEGER PRIMARY KEY;
-    task VARCHAR(50);
+    id INTEGER AUTO INCREMENT,
+    task VARCHAR(50),
+    PRIMARY KEY(id)
 );
